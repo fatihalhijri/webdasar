@@ -1,0 +1,27 @@
+<html>
+
+<body>
+    <script>
+        let datadiri = {
+            namadepan: "fatih",
+            namabelakang: "alhijri",
+            hobi: "mengaji",
+            umur: 15,
+        };
+        document.write(`halo nama saya ${datadiri.namadepan} ${datadiri.namabelakang}
+         hobi saya adalah ${datadiri.hobi} saya sekarang berusia ${datadiri.umur} tahun`)
+    
+         delete datadiri.umur
+
+    datadiri["asal sekolah"] = "SMK madinatul quran"
+
+    document.write("<br>")
+    document.write("<br>")
+
+    document.write(`halo nama saya ${datadiri.namadepan} ${datadiri.namabelakang}
+     hobi saya adalah ${datadiri.hobi} saya bersekolah di ${datadiri["asal sekolah"]} tahun `)
+
+   </script>
+</body>
+
+</html>

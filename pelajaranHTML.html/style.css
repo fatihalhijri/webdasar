@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Kalam&display=swap');
+
+
+body {
+    font-family: 'Kalam', cursive;
+}
+nav a {
+    font-size: 18px ;
+    font-weight: 400;
+    text-decoration: none ;
+    color: white;
+}
+nav a:hover {
+    font-weight: bold;
+}
+.jumbotron {
+    padding: 60px;
+    background-color: goldenrod;
+    text-align: center;
+    font-size: 20px;
+    color: antiquewhite;
+}
+
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+nav {
+    background-color: goldenrod;
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    
+}
+
+
+.card {
+    box-shadow: 0 4px 8px;
+    border-radius: 5px;
+}
+main {
+    padding: 20px;
+    overflow: auto;
+}
+
+.profile header {
+    text-align:center;
+}
+.profile img {
+    width: 200px;
+}
+h2, h3 {
+    color: rgb(130, 198, 238);
+}
+
+p {
+    font-family: 'Kalam', cursive;
+}
+.featured-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+}
+
+footer {
+    padding: 20px;
+    color: chartreuse;
+    background-color: goldenrod;
+
+}
+/* penulisan margin & padding */
+.margin {
+    /* keseluruhan */
+    margin: 20px;
+    /* satuan */
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    /* arah jarum jam */
+    margin: 10px 20px 30px 40px;
+    /* atas bawah, kiri kanan */
+    margin: 10px auto;
+}
+#content {
+    float:left;
+    width: 75%;
+}
+aside {
+    float : right;
+    width: 25%;
+    padding-left: 20px;
+}
+
+* {
+    box-sizing: border-box;
+}
+@media screen and (max-width:1000px) {
+    #conten,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+}
+header {
+    display: inline;
+}
+html {
+    scroll-behavior: smooth;
+}

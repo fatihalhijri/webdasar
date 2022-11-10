@@ -1,0 +1,72 @@
+/* ekternal css */
+*{
+    margin :0;
+    padding:0;
+}
+body {
+    background-color: rgba(36, 0, 84, 0.851);
+    background-image: url(../pelajaranHTML.html/farm-house.jpg);
+    background-size: cover;
+}
+
+h1 {
+    color: aquamarine;
+    text-align: center;
+}
+
+p {
+    color: rgb(127, 255, 232);
+    text-align: center;
+    font-size: 20px;
+}
+
+/* sektor dengan nama tag */
+h1,h2 {
+    color: blue;
+}
+
+/* selektor dengan class */
+.bg-yellow {
+    background-color: yellow;
+}
+
+/* selektor dengan ID elemen */
+#header {
+    background: grey;
+}
+
+/* selektor dengan atribut */
+input[type=text] {
+    background: red}
+    h1:hover{
+        color :orange;
+    }
+    /* rumus membuat kotak harus ada tinggi &lebar */
+    .kotak{
+        height: 100px;
+        width: 100%;
+        background-color: brown;
+        /* Mengapung */
+        float: left;
+    }
+    .bg-blue{
+        /* height: 1000px;
+        width: 100%; */
+        background-color: blue;
+    }
+    .bg-yellow{
+        /* height: 300px;
+        width: 100%; */
+        background-color: yellow;
+    }
+    .bg-red{
+        /* height: 200px;
+        width: 100%; */
+        background-color: red;
+    }
+    .bg-purple{
+        /* height: 50px;
+        width: 100%; */
+        background-color: purple;
+    }
+    /* CATATA AGAR TIDAK LUPA */

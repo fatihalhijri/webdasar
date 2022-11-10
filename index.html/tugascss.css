@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;  
+}
+
+.bungkus{
+    width: 80%;
+    margin: 50px auto;
+}
+
+.bg-blue{
+    height: 100px;
+    width: 100%;
+    background-color: blue;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.bg-orange{
+    height: 500px;
+    width: 75%;
+    background-color: orange;
+    float: left;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.bg-green{
+    height:500px;
+    width: 25%;
+    background-color: green;
+    float: right;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+.bg-red{
+    height: 100px;
+    width: 100%;
+    background-color: red;
+    clear: both;
+    font-size: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;   
+}
